@@ -1,0 +1,18 @@
+package com.example.Student;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@SpringBootApplication
+@EnableAutoConfiguration
+public class StudentApplication {
+
+	public static void main(String[] args)  {
+		SpringApplication.run(StudentApplication.class, args);
+	}
+
+}
