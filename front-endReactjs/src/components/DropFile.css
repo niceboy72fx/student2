@@ -1,0 +1,40 @@
+.DropFileInput{
+       width: 300px;
+       height: 200px;
+       border:  2px dashed #fff;
+       border-radius: 20px;
+
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #fff;
+      
+}
+
+.DropFile input{
+	opacity: 0;  
+       padding: 40px 150px 10px 150px;
+       left: 35%;
+       top: 400px;
+	position: absolute;
+	cursor: pointer; 
+       background-color: red;
+}
+
+.DropFile p{
+       border-radius: 20px;
+       height: 20%;
+       border-style: dotted;
+       position: relative;
+       top: 50px;
+}
+
+.DropFile h6{
+       position: relative;
+       top:160px;
+}
+
+.error{
+       color: red;
+}
+

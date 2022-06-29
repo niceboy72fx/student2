@@ -1,0 +1,11 @@
+.navbar{
+	position: relative;
+	left:70%;
+	display: flex;
+}
+.navbar a {
+	text-decoration: none;
+	font-size: 20px;
+	display: flex;
+	margin: 0px 30px;
+}
